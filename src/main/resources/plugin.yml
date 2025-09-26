@@ -1,0 +1,20 @@
+name: PlayerRickroll
+version: '${project.version}'
+main: me.superchirok1.playerrickroll.PlayerRickroll
+api-version: '1.16'
+prefix: PlayerRickroll
+depend: [NoteBlockAPI]
+authors: [SuperCHIROK1]
+description: Rickroll other players!
+
+commands:
+  rickroll:
+    usage: /rickroll <player>
+  playerrickroll:
+    usage: /playerrickroll
+
+permission:
+  playerrickroll.reload:
+    description: Reload plugin
+  playerrickroll.rickroll:
+    description: Rickroll command

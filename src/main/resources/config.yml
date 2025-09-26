@@ -1,0 +1,30 @@
+messages:
+  no-perms: "&cSorry, you dont have permission, to do this!"
+  usage: "&6Usage: &e/rickroll <player>"
+  player-not-found: "&cPlayer not found"
+  reloaded: "&8[&6&lPlayerRickroll&8] &aPlugin reloaded"
+  rickrolled: "&aPlayer rickrolled!"
+
+rickroll:
+  title:
+    enabled: true
+    title: "&e&lRICKROLLED"
+    subtitle: "&fYou are rickrolled"
+    fade-in: 0
+    stay: 40
+    fade-out: 20
+  chat:
+    enabled: true
+    msgs:
+      - "&f"
+      - "&e&l YOU ARE RICKROLLED! &7(PlayerRickroll)"
+      - "&f"
+      - "&f You are rickrolled"
+      - "&6 To rickroll others: /rickroll <player>"
+      - "&f"
+  music:
+    enabled: true
+    song: "music.nbs"
+  actionbar:
+    enabled: true
+    text: "&6You are &e&lRICKROLLED"
